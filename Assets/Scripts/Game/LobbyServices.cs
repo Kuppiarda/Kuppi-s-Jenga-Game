@@ -71,7 +71,6 @@ public class LobbyServices : MonoBehaviour
         if (UnityServices.State == ServicesInitializationState.Initialized) return; // Eğer unity servislerine zaten bağlanmamışsa
 
         InitializationOptions initializationOptions = new InitializationOptions();
-        initializationOptions.SetProfile(Random.Range(0, 10000).ToString()); // Test ve aynı cihazda farklı oturumlar için farklı profiller
 
         await UnityServices.InitializeAsync(initializationOptions); // Unity servisleriyle bağlantı kur
         await AuthenticationService.Instance.SignInAnonymouslyAsync(); 
