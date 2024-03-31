@@ -7,7 +7,7 @@ Unity ve NGO ile yapılmış multiplayer bir Jenga oyunu
 
 ## Proje Hakkında
 Bu Jenga oyunu projesi, kullanıcı deneyimini tepede tutan bir oyun olmaktansa Unity ve NGO kullanımını öğrenmek ve bu bilgileri pekiştirmek amacıyla yapılan bir projedir.
-<br>
+<br><br>
 
 ## Oyun İçi Görüntüler
 ![](https://github.com/Kuppiarda/Kuppi-s-Jenga-Game/blob/main/Screenshots/MainMenu.png)
