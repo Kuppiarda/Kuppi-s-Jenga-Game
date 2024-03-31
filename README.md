@@ -21,6 +21,7 @@ Bu Jenga oyunu projesi kullanıcı deneyimini tepede tutan bir oyun olmaktansa U
 
 ## Kurulum
 <br>
+
 **Build Almak İçin**
 1. [Unity](https://unity.com/download) indirin.
 2. Unity Hub'dan 2021.3.24f1 (LTS) sürümünü indirin.
