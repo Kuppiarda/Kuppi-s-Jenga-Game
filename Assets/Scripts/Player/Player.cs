@@ -61,7 +61,7 @@ public class Player : NetworkBehaviour
     private bool TryGetTableChairFromRaycast(out TableChair tableChair)
     {
         Ray cameraRay = Camera.main.ScreenPointToRay(GameInput.Instance.GetMousePosition());
-        if (Physics.Raycast(cameraRay, out RaycastHit hit, 10, JengaGameManager.Instance.GetChairLayerMask()))
+        if (Physics.Raycast(cameraRay, out RaycastHit hit, 3, JengaGameManager.Instance.GetChairLayerMask()))
         {
             tableChair = hit.transform.parent.GetComponent<TableChair>();
             return true;

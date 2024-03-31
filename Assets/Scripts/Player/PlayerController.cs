@@ -58,7 +58,7 @@ public class PlayerController : NetworkBehaviour
         
         PlayerStateHandler();
         
-        if (Player.LocalInstance.IsPlayerFrozen() && !Player.LocalInstance.IsPlayerSitting() || JengaGameManager.Instance.IsGamePaused()) // Oturmuyor ve donuk ise yine de yerçekimini uygula
+        if (Player.LocalInstance.IsPlayerFrozen() && !Player.LocalInstance.IsPlayerSitting() || JengaGameManager.Instance.IsGamePaused() && !Player.LocalInstance.IsPlayerSitting()) // Oturmuyor ve donuk ise ya da oyun duraklatılmışsa ve oturmuyorsa yine de yerçekimini uygula
         {
             GroundCheckForVelocity();            
             ApplyGravity();

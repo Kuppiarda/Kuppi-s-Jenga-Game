@@ -39,7 +39,8 @@ public class GamePauseUI : MonoBehaviour
 
     private void Hide()
     {
-        CrosshairUI.Instance.Show();
+        if (!Player.LocalInstance.IsPlayerSitting()) // Otururken gösterilmemeli
+            CrosshairUI.Instance.Show(); 
         SettingsUI.Instance.HideSettings();
         gameObject.SetActive(false);
     }
