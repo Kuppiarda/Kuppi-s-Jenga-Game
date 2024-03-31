@@ -1,5 +1,6 @@
 # Kuppi's Jenga Game
 Unity ve NGO ile yapılmış multiplayer bir Jenga oyunu
+<br>
 
 ![](https://github.com/Kuppiarda/Kuppi-s-Jenga-Game/blob/main/Assets/Textures/LogoSprite.png)
 ![](https://img.shields.io/github/stars/Kuppiarda/Kuppi-s-Jenga-Game/) ![](https://img.shields.io/github/forks/Kuppiarda/Kuppi-s-Jenga-Game/) ![](https://img.shields.io/github/release/Kuppiarda/Kuppi-s-Jenga-Game/) ![](https://img.shields.io/github/issues/Kuppiarda/Kuppi-s-Jenga-Game/)
@@ -19,6 +20,7 @@ Bu Jenga oyunu projesi kullanıcı deneyimini tepede tutan bir oyun olmaktansa U
 - Windows işletim sistemi
 
 ## Kurulum
+<br>
 **Build Almak İçin**
 1. [Unity](https://unity.com/download) indirin.
 2. Unity Hub'dan 2021.3.24f1 (LTS) sürümünü indirin.
@@ -29,6 +31,7 @@ Bu Jenga oyunu projesi kullanıcı deneyimini tepede tutan bir oyun olmaktansa U
 7. **Create project ID** butonuna basın.
 8. [**Unity Cloud**](https://cloud.unity.com/home "**Unity Cloud**") üzerinden organization'unuzda **Relay** ve **Lobby** sistemlerini aktifleştirin.
 9. Build almaya hazırsınız.
+<br>
 
 **Sadece Oynamak İçin**
 
