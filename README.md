@@ -1,6 +1,6 @@
 # Kuppi's Jenga Game
 Unity ve NGO ile yapılmış multiplayer bir Jenga oyunu
-<br>
+<br><br>
 
 ![](https://github.com/Kuppiarda/Kuppi-s-Jenga-Game/blob/main/Assets/Textures/LogoSprite.png)
 ![](https://img.shields.io/github/stars/Kuppiarda/Kuppi-s-Jenga-Game/) ![](https://img.shields.io/github/forks/Kuppiarda/Kuppi-s-Jenga-Game/) ![](https://img.shields.io/github/release/Kuppiarda/Kuppi-s-Jenga-Game/) ![](https://img.shields.io/github/issues/Kuppiarda/Kuppi-s-Jenga-Game/)
