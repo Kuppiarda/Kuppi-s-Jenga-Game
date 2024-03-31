@@ -6,7 +6,9 @@ Unity ve NGO ile yapılmış multiplayer bir Jenga oyunu
 ![](https://img.shields.io/github/stars/Kuppiarda/Kuppi-s-Jenga-Game/) ![](https://img.shields.io/github/forks/Kuppiarda/Kuppi-s-Jenga-Game/) ![](https://img.shields.io/github/release/Kuppiarda/Kuppi-s-Jenga-Game/) ![](https://img.shields.io/github/issues/Kuppiarda/Kuppi-s-Jenga-Game/)
 
 ## Proje Hakkında
-Bu Jenga oyunu projesi kullanıcı deneyimini tepede tutan bir oyun olmaktansa Unity ve NGO kullanımını öğrenmek ve bu bilgileri pekiştirmek amacıyla yapılan bir projedir.
+Bu Jenga oyunu projesi, kullanıcı deneyimini tepede tutan bir oyun olmaktansa Unity ve NGO kullanımını öğrenmek ve bu bilgileri pekiştirmek amacıyla yapılan bir projedir.
+<br>
+
 ## Oyun İçi Görüntüler
 ![](https://github.com/Kuppiarda/Kuppi-s-Jenga-Game/blob/main/Screenshots/MainMenu.png)
 ![](https://github.com/Kuppiarda/Kuppi-s-Jenga-Game/blob/main/Screenshots/CreateLobby.png)
@@ -18,6 +20,7 @@ Bu Jenga oyunu projesi kullanıcı deneyimini tepede tutan bir oyun olmaktansa U
 
 ##### Oynamak için (Tüm gereksinimler için yeterli veri yok.)
 - Windows işletim sistemi
+<br>
 
 ## Kurulum
 <br>
@@ -40,6 +43,7 @@ Bu Jenga oyunu projesi kullanıcı deneyimini tepede tutan bir oyun olmaktansa U
 2. İstediğiniz bir sürümü seçip hemen alt tarafta bulunan arşiv dosyasını indirin.
 3. İndirmiş olduğunuz arşivi ayıklayın.
 4. `Kuppi's Jenga Game.exe` uygulamasını çalıştırın.
+<br>
 
 ## Oynanış
 1. Oyunu açın.
@@ -48,9 +52,11 @@ Bu Jenga oyunu projesi kullanıcı deneyimini tepede tutan bir oyun olmaktansa U
 4. Oyun başladıktan sonra Jenga masası etrafında bulunan sandalyelerden birine **E** tuşu ile oturunuz.
 5. Sıra size geldiğinde **işaretçinizi** kullanarak bir Jenga seçin, **sol fare tuşu** ile ittirin ve ardından çıkardığınız Jenga tuğlasını kulede istediğiniz bir yere **sol fare tuşu** ile yerleştirin. (Kule devrilirse kaybedersiniz.)
 6. That's it lads, **Rock and Stone!** (Bu kadar.)
+<br>
 
 ## Neden Jenga?
 ![](https://github.com/Kuppiarda/Kuppi-s-Jenga-Game/blob/main/Screenshots/NedenJenga.gif)
+<br>
 
 ## Kullanılan Assetler
 Projede kullanılan üçüncü parti ses, texture, model, animasyon assetlerini [**ASSETS.md**](https://github.com/Kuppiarda/Kuppi-s-Jenga-Game/blob/main/ASSETS.md "ASSETS.md") dosyasından bulabilirsiniz. 
