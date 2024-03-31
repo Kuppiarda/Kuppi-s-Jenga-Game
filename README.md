@@ -56,7 +56,7 @@ Bu Jenga oyunu projesi, kullanıcı deneyimini tepede tutan bir oyun olmaktansa 
 
 ## Neden Jenga?
 ![](https://github.com/Kuppiarda/Kuppi-s-Jenga-Game/blob/main/Screenshots/NedenJenga.gif)
-<br>
+<br><br>
 
 ## Kullanılan Assetler
 Projede kullanılan üçüncü parti ses, texture, model, animasyon assetlerini [**ASSETS.md**](https://github.com/Kuppiarda/Kuppi-s-Jenga-Game/blob/main/ASSETS.md "ASSETS.md") dosyasından bulabilirsiniz. 
