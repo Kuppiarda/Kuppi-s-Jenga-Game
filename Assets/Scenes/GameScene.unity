@@ -5261,23 +5261,6 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 1484489385
       objectReference: {fileID: 0}
-    - target: {fileID: 7715429012364208429, guid: 4ae87402766101f4384cd0306a381f9c,
-        type: 3}
-      propertyPath: jengaGameEndings.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7715429012364208429, guid: 4ae87402766101f4384cd0306a381f9c,
-        type: 3}
-      propertyPath: jengaGameEndings.Array.data[0]
-      value: 
-      objectReference: {fileID: -9128162492722539547, guid: b532e32aef60c92419d24c83d0551931,
-        type: 3}
-    - target: {fileID: 7715429012364208429, guid: 4ae87402766101f4384cd0306a381f9c,
-        type: 3}
-      propertyPath: jengaGameEndings.Array.data[1]
-      value: 
-      objectReference: {fileID: 681036956926298278, guid: b57bf05882d53c645bc677cef47fe347,
-        type: 3}
     - target: {fileID: 7741596380136070195, guid: 4ae87402766101f4384cd0306a381f9c,
         type: 3}
       propertyPath: m_RootOrder
