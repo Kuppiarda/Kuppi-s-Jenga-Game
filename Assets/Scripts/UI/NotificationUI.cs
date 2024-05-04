@@ -1,5 +1,9 @@
+using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 public class NotificationUI : MonoBehaviour
 {
@@ -41,9 +45,19 @@ public class NotificationUI : MonoBehaviour
         notificationText.text = message;
     }
 
+    public void LocalizedNotification(string localeKey, List<string> parameters = null, string tableName = "NotificationLocalization")
+    {
+        string localizedText = LocalizationSettings.StringDatabase.GetLocalizedString(tableName, localeKey);
+
+        if (parameters != null)
+            localizedText = string.Format(localizedText, parameters.ToArray());
+
+        Notification(localizedText);
+    }
+
     public void ErrorNotification()
     {
-        Notification("Bir hata meydana geldi.");
+        LocalizedNotification("errorNotification");
     }
 
     private void ShowAnimation()

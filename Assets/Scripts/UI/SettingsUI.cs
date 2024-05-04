@@ -1,4 +1,7 @@
+using System;
 using UnityEngine;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 using UnityEngine.UI;
 
 public class SettingsUI : MonoBehaviour
@@ -11,12 +14,11 @@ public class SettingsUI : MonoBehaviour
     [SerializeField] private Slider musicVolumeSlider;	
     [SerializeField] private Transform settingsTransform;
     [SerializeField] private Animator animator;
-
+    
 
     private void Awake()
     {
         Instance = this;
-        HideSettings();
 
         settingsButton.onClick.AddListener(() => {
             ToggleSettings();
@@ -33,6 +35,7 @@ public class SettingsUI : MonoBehaviour
 
     private void Start()
     {
+        HideSettings();
         musicVolumeSlider.value = SoundManager.Instance.GetMusicVolume();
         audioVolumeSlider.value = SoundManager.Instance.GetAudioVolume();
     }
@@ -59,6 +62,11 @@ public class SettingsUI : MonoBehaviour
         {
             ShowSettings();
         }
+    }
+
+    public void ChangeLanguage(Locale newLocale)
+    {
+        LocalizationSettings.SelectedLocale = newLocale;
     }
 
 }

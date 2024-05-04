@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: NotificationLocalization_tr-TR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr-TR
+  m_SharedData: {fileID: 11400000, guid: deb8f66daf914d24380e14aa219bc3d8, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7173672960
+    m_Localized: "Lobi olu\u015Fturuluyor..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2394529566720
+    m_Localized: "{0} koduyla ba\u011Flan\u0131l\u0131yor..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2551560114176
+    m_Localized: "Bir \u015Feyler ters gitti, lobi kodunu kontrol edin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2696154550272
+    m_Localized: "Ba\u011Flan\u0131l\u0131yor..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3011478130688
+    m_Localized: "L\xFCtfen bir lobi ad\u0131 giriniz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3263157342208
+    m_Localized: Bir hata meydana geldi.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

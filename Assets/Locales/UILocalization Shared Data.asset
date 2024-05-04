@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UILocalization Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UILocalization
+  m_TableCollectionNameGuidString: 05c8f576da532af4ea025fd034996a2c
+  m_Entries:
+  - m_Id: 42418409472
+    m_Key: playGameButtonText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1132677402624
+    m_Key: exitGameButtonText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1721356357632
+    m_Key: aboutMeTitleText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2007911206912
+    m_Key: githubButtonText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2133014712320
+    m_Key: assetsButtonText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3308971724800
+    m_Key: createLobbyButtonText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3355541082112
+    m_Key: mainMenuButtonText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3448906289152
+    m_Key: playerNameText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3528400932864
+    m_Key: joinWithCodeText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4156774780928
+    m_Key: lobbyNameText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4213427245056
+    m_Key: createButtonText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4318494560256
+    m_Key: cancelButtonText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32504066445312
+    m_Key: leaveButtonText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32539634143232
+    m_Key: startButtonText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32603739885568
+    m_Key: changeSkinButtonText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32655065583616
+    m_Key: lobbyCodeText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37890219675648
+    m_Key: returnGameButtonText
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8903967313766121496
+  references:
+    version: 2
+    RefIds:
+    - rid: 8903967313766121496
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1714840610264

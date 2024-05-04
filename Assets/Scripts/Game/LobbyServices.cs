@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 using Unity.Networking.Transport.Relay;
+using System;
 
 public class LobbyServices : MonoBehaviour
 {
@@ -82,7 +83,7 @@ public class LobbyServices : MonoBehaviour
         try
         {
             currentLobby = new Lobby(); // Bir lobi oluşturuluyor olduğunu göstermesi için
-            NotificationUI.Instance.Notification("Lobi oluşturuluyor...");
+            NotificationUI.Instance.LocalizedNotification("creatingLobbyNotification");
 
             currentLobby = await LobbyService.Instance.CreateLobbyAsync(lobbyName, MultiplayerManager.MAX_PLAYER_COUNT); // Lobi servisinden lobi kur
 
@@ -109,7 +110,7 @@ public class LobbyServices : MonoBehaviour
     {
         try
         {
-            NotificationUI.Instance.Notification(lobbyCode + " koduyla bağlanılıyor...");
+            NotificationUI.Instance.LocalizedNotification("joiningWithCodeNotification", parameters: new List<String> { lobbyCode });
             currentLobby = await LobbyService.Instance.JoinLobbyByCodeAsync(lobbyCode);
 
             string relayJoinCode = currentLobby.Data["RelayJoinCode"].Value; // Lobbyden RelayJoinCode alınıyor
@@ -120,7 +121,7 @@ public class LobbyServices : MonoBehaviour
         }
         catch
         {
-            NotificationUI.Instance.Notification("Bir hata meydana geldi, lobi kodunu kontrol edin.");
+            NotificationUI.Instance.LocalizedNotification("checkLobbyCodeNotification");
         }
     }
 
@@ -128,7 +129,7 @@ public class LobbyServices : MonoBehaviour
     {
         try
         {
-            NotificationUI.Instance.Notification("Bağlanılıyor...");
+            NotificationUI.Instance.LocalizedNotification("connectingNotification");
             currentLobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyId);
 
             string relayJoinCode = currentLobby.Data["RelayJoinCode"].Value; // Lobbyden RelayJoinCode alınıyor

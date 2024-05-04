@@ -124,8 +124,8 @@ public class Player : NetworkBehaviour
 
     public void GetUpChair()
     {
+        playerController.TeleportPlayer(sittingChair.transform.position + (sittingChair.transform.right / 2) + (Vector3.up * 0.7f)); // Sandalyenin hafif sağında ve yerde olacak şekilde inecek
         UnfreezePlayer();
-        playerController.TeleportPlayer(sittingChair.transform.right + Vector3.up);
         CrosshairUI.Instance.Show();
         ChangeChairServerRpc();
     }

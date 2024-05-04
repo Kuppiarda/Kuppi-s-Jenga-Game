@@ -21,7 +21,7 @@ public class CreateLobbyUI : MonoBehaviour
         createLobbyButton.onClick.AddListener(() => {
             if (lobbyNameInputField.text == "")
             {
-                NotificationUI.Instance.Notification("Lütfen bir lobi adı giriniz.");
+                NotificationUI.Instance.LocalizedNotification("noLobbyNameNotification");
             }
             else
             {

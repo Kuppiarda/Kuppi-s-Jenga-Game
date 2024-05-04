@@ -1,6 +1,7 @@
 using TMPro;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.Localization;
 using UnityEngine.UI;
 
 public class LobbyUI : MonoBehaviour
@@ -10,6 +11,7 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private Button startGameButton;
     [SerializeField] private Button changeSkinButton;
     [SerializeField] private TextMeshProUGUI lobbyCodeText;
+    [SerializeField] private LocalizedString lobbyCodeTextLocalizedString;
 
     
     private void Awake()
@@ -31,9 +33,19 @@ public class LobbyUI : MonoBehaviour
         });
     }
 
-    private void Start()
+    private void OnEnable()
     {
-        lobbyCodeText.text += LobbyServices.Instance.GetCurrentLobby().LobbyCode;
+        lobbyCodeTextLocalizedString.StringChanged += UpdateLobbyCodeText;
+    }
+
+    private void OnDisable()
+    {
+        lobbyCodeTextLocalizedString.StringChanged -= UpdateLobbyCodeText;
+    }
+
+    private void UpdateLobbyCodeText(string localizedLobbyCodeText)
+    {
+        lobbyCodeText.text = string.Format(localizedLobbyCodeText, LobbyServices.Instance.GetCurrentLobby().LobbyCode);
     }
 
 }

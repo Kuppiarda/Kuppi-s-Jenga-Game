@@ -89,3 +89,10 @@ https://assetstore.unity.com/packages/2d/gui/icons/minimalist-cartoon-ui-pack-12
 * **Heathen Engineering** tarafından yayınlanan **UX Flat Icons [Free]**
 https://assetstore.unity.com/packages/2d/gui/icons/ux-flat-icons-free-202525
 
+> Türkçe / Türkiye bayrağı
+* **Dighital** tarafından yayınlanan **Turkey free icon**
+https://www.flaticon.com/free-icon/turkey_3909414
+
+> İngilizce / United Kingdom bayrağı
+* **Freepik** tarafından yayınlanan **United Kingdom free icon**
+https://www.flaticon.com/free-icon/united-kingdom_197374
