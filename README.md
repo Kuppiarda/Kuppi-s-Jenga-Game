@@ -59,6 +59,7 @@ Bu Jenga oyunu projesi, kullanıcı deneyimini tepede tutan bir oyun olmaktansa 
 
 ## Itch.io
 Projenin itch.io sayfasına [**bu bağlantıdan**](https://kuppiarda.itch.io/kuppis-jenga-game) ulaşabilirsiniz.
+<br>
 
 ## Kullanılan Assetler / Used Assets (3rd Party)
 Projede kullanılan üçüncü parti ses, texture, model, animasyon assetlerini [**ASSETS.md**](https://github.com/Kuppiarda/Kuppi-s-Jenga-Game/blob/main/ASSETS.md "ASSETS.md") dosyasından bulabilirsiniz. 
