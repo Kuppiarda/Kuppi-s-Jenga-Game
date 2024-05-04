@@ -1,5 +1,5 @@
 # Kuppi's Jenga Game
-Unity ve NGO ile yapılmış multiplayer bir Jenga oyunu
+(TR/EN) Unity ve NGO ile yapılmış multiplayer bir Jenga oyunu
 <br><br>
 
 ![](https://github.com/Kuppiarda/Kuppi-s-Jenga-Game/blob/main/Assets/Textures/LogoSprite.png)
