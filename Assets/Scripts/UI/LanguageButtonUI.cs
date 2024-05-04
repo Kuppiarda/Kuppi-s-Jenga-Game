@@ -37,7 +37,7 @@ public class LanguageButtonUI : MonoBehaviour
 
     private void CheckForLocale()
     {
-        if (LocalizationSettings.SelectedLocale == localeCode)
+        if (LocalizationSettings.SelectedLocale.ToString() == localeCode.ToString()) // Locale'leri karşılaştırınca Build'da işe yaramıyor
         {
             selectedImage.gameObject.SetActive(true);
         }
